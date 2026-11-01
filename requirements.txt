@@ -1,0 +1,9 @@
+# Runtime dependencies - target Python 3.11 or 3.12.
+# NOTE: these ranges are chosen from MediaPipe's documented behaviour but were
+# NOT installed together and run end-to-end by the author (no network access).
+# See README "MediaPipe compatibility" before changing the mediapipe range.
+opencv-python>=4.8,<5
+mediapipe>=0.10.14,<0.10.22
+pygame>=2.5,<3
+numpy>=1.24,<2
+# Tests (optional): pip install pytest
